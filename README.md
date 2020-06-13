@@ -1,5 +1,4 @@
-# bluesweater
-<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -25,4 +24,3 @@
 
 <link rel="stylesheet" type="text/css" href="todo.css">
 <script src="todo.js"></script>
-</html>
