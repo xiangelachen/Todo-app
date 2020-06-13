@@ -1,0 +1,138 @@
+ul {
+	list-style-type: none;
+}
+
+p, h2, .newLi {
+	display: flex;
+	justify-content: center;
+}
+
+#newTodo {
+	height: 20px;
+	width: 180px;
+	text-decoration: underline;
+}
+
+input[type="text"] {
+	border: transparent;
+	padding: 5px 5px;
+}
+
+
+
+.itemCompleted {
+	text-decoration: line-through;
+	font-style: italic;
+}
+
+button {
+	height: 3px;
+	width: 3px;
+}
+
+#addButton, #resetButton, .editIcon, .deleteIcon:hover {
+	cursor: pointer;
+}
+
+
+/* Hoverable dropdown menu for Edit icon: */
+.editIcon {
+  position: relative;
+  display: inline-block;
+
+}
+
+.ddE {
+  display: none;
+  position: absolute;
+  font-size: 1px;
+  background-color: #f9f9f9;
+  min-width: 2px;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+  padding: 2px 2px;
+  z-index: 1;
+}
+
+.editIcon:hover .ddE {
+  display: block;
+}
+
+
+/* Hoverable dropdown menu for Delete icon: */
+.deleteIcon {
+  position: relative;
+  display: inline-block;
+
+}
+
+.ddD {
+  display: none;
+  position: absolute;
+  font-size: 1px;
+  background-color: #f9f9f9;
+  min-width: 2px;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+  padding: 2px 2px;
+  z-index: 1;
+}
+
+.deleteIcon:hover .ddD {
+  display: block;
+}
+
+
+/* Hoverable dropdown menu for Add icon: */
+.addIcon {
+  position: relative;
+  display: inline-block;
+
+}
+
+.ddA {
+  display: none;
+  position: absolute;
+  font-size: 1px;
+  background-color: #f9f9f9;
+  min-width: 2px;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+  padding: 2px 2px;
+  z-index: 1;
+}
+
+.addIcon:hover .ddA {
+  display: block;
+}
+
+
+/* Hoverable dropdown menu for Reset icon: */
+.resetIcon {
+  position: relative;
+  display: inline-block;
+
+}
+
+.ddR {
+  display: none;
+  position: absolute;
+  font-size: 1px;
+  background-color: #f9f9f9;
+  min-width: 2px;
+  box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+  padding: 2px 2px;
+  z-index: 1;
+}
+
+.resetIcon:hover .ddR {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
