@@ -15,7 +15,7 @@ function addNewli(){
 	newLi=document.createElement('li');
 	newLi.setAttribute('class', 'newLi');
 	wholeList.appendChild(newLi);
-	newLi.innerHTML=`<input type="checkbox"> <input type="text" value="${newTodo.value}"> <span class="editIcon"><i class="far fa-edit"></i> <span class="ddE">Edit</span></span> <span class="deleteIcon"><i class="far fa-trash-alt"></i> <span class="ddD">Delete</span></span>`;
+	newLi.innerHTML=`<input type="checkbox"> <input type="text" class="enteredItem" value="${newTodo.value}"> <span class="editIcon"><i class="far fa-edit"></i> <span class="ddE">Edit</span></span> <span class="deleteIcon"><i class="far fa-trash-alt"></i> <span class="ddD">Delete</span></span>`;
 	newTodo.value="";
 }
 
