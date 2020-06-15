@@ -22,7 +22,7 @@ ul {
     margin-top: 2em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
 }
 
@@ -52,10 +52,17 @@ h2 {
 }
 
 /* margin for the four icons: */
-.addIcon, .resetIcon, .editIcon, .deleteIcon {
+.editIcon, .resetIcon, .deleteIcon {
   margin-left: 0.4em;
   margin-right: 0.4em;
 }
+
+.addIcon {
+  margin-left: 1em;
+  margin-right: 0.4em;
+}
+
+
 
 
 .newLi {
@@ -69,6 +76,8 @@ h2 {
   background: transparent;
   font-size: 1em;
   padding: 0.5em 0.5em;
+  width: auto;
+  
   
 }
 
