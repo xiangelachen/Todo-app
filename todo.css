@@ -58,6 +58,7 @@ h2 {
 /*for all newly entered input text boxes:*/
 .enteredItem {
   border: transparent;
+  background: transparent;
   font-size: 1em;
   padding: 0.5em 0.5em;
   width: 30%;
